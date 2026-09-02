@@ -4,11 +4,11 @@ Source SHA-256: 94afefe5997c6edaece7eb27cea9d786519872b162e6eead8c4a94a4fde2a71e
 Model: tencent/Hy-MT2-1.8B-GGUF:Q4_K_M
 Review machine-translated technical claims before relying on them.
 -->
-# RDK X5 Beginner's Guide: From System Burning to YOLO Object Recognition
+# RDK X5 Beginner's Tutorial: From System Burning to YOLO Object Recognition
 
 ## Table of Contents
 
-- [RDK X5 Super Beginner Tutorial: From System Flashing to YOLO Object Recognition](#rdk-x5超新手入门教程-从系统烧录到-yolo-物体识别)
+- [RDK X5 Super Beginner Tutorial: From System Flashing to YOLO Object Detection](#rdk-x5超新手入门教程-从系统烧录到-yolo-物体识别)
   - [Directory](#目录)
   - [How to Purchase](#如何购买)
   - [RDK X5 Specifications](#rdk-x5-规格参数)
@@ -21,12 +21,12 @@ Review machine-translated technical claims before relying on them.
       - [System Flashing](#系统烧录-1)
     - [Image Download](#镜像下载)
     - [System Flashing](#系统烧录-2)
-    - [Booting the System](#启动系统)
-    - [Common Issues](#常见问题)
+    - [Starting the System](#启动系统)
+    - [Common Questions](#常见问题)
   - [YOLO Algorithm Testing](#yolo算法测试)
     - [Operation Method](#运行方法)
   - [Camera Application](#摄像头应用)
-    - [Local Saving of Camera Images](#摄像头图像本地保存)
+    - [Saving Camera Images Locally](#摄像头图像本地保存)
       - [Environment Preparation](#环境准备)
       - [Operation Mode](#运行方式)
       - [Expected Results](#预期效果)
@@ -57,19 +57,19 @@ The boards received will come with a box, which is very beautiful:
 | Storage | Use an external Micro SD card for storage (to be purchased separately)                                                                                                                                             |
 | Multimedia | H.265 (HEVC) Main Profile @ L5.1, H.264 (AVC) Baseline/Constrained Baseline/Main/High Profiles @ L5.2 with SVC-T encoding, H.265/H.264 encoding and decoding up to 3840x2160@60fps |
 
-RDK X5 provides function interfaces such as network ports, USB, cameras, LCD, HDMI, CANFD, and 40PIN, which facilitate users in developing and testing applications like image multimedia and deep learning algorithms. The interface layout of the development board is as follows:
+RDK X5 provides function interfaces such as network ports, USB, cameras, LCD, HDMI, CANFD, and 40PIN, which facilitate users in developing and testing applications such as image multimedia and deep learning algorithms. The interface layout of the development board is as follows:
 
 <p align="center">
   <img alt="RDK X5 接口布局" src="../../assets/rdk_x5/rdk-x5-interfaces.jpg" width="50%"/>
 </p>
 
-| Serial No. | Function                | Serial No. | Function                | Serial No. | Function               |
-| ---- | ---------------------- | ---- | ---------------------- | ---- | --------------------- |
-| 1    | Power interface (USB Type-C) | 2    | RTC battery interface    | 3    | Easy connection port (USB Type-C) |
-| 4    | Debug serial port (Micro USB) | 5    | 2-channel MIPI Camera interface | 6    | Gigabit Ethernet port, supports POE |
-| 7    | 4-channel USB 3.0 Type A interface | 8    | CAN FD high-speed interface | 9    | 40PIN interface         |
-| 10   | HDMI display interface   | 11   | Multi-standard compatible headphone jack | 12   | On-board Wi-Fi antenna   |
-| 13   | TF card interface (bottom) | 14   | LCD display interface (MIPI DSI) |      |                         |
+| Serial Number | Function                     | Serial Number | Function                     | Serial Number | Function                    |
+| ---- | ------------------------ | ---- | ------------------------ | ---- | ----------------------- |
+| 1    | Power interface (USB Type-C) | 2    | RTC battery interface         | 3    | Easy connection port (USB Type-C) |
+| 4    | Debug serial port (Micro USB) | 5    | 2-channel MIPI Camera interface | 6    | Gigabit Ethernet port, POE supported |
+| 7    | 4-channel USB 3.0 Type A interface | 8    | CAN FD high-speed interface   | 9    | 40PIN interface            |
+| 10   | HDMI display interface       | 11   | Multi-standard compatible headphone port | 12   | On-board Wi-Fi antenna      |
+| 13   | TF card interface (bottom)   | 14   | LCD display interface (MIPI DSI) |      |                         |
 
 Mechanical dimensions:
 
@@ -92,7 +92,7 @@ The RDK X5 development board is powered via the USB Type-C interface. A power ad
 
 #### Storage
 
-The RDK X5 development board uses a Micro SD memory card as the system boot medium. It is recommended to use a memory card with a capacity of at least `8GB` to meet the storage requirements of the Ubuntu system and application software.
+The RDK X5 development board uses a Micro SD storage card as the system boot medium. It is recommended to use a storage card with a capacity of at least `8GB`, so as to meet the storage requirements of the Ubuntu system and application functional software.
 
 > [!IMPORTANT]
 >
@@ -104,7 +104,7 @@ The RDK X5 development board supports the HDMI display interface. By connecting 
 
 #### Network Connection
 
-The RDK X5 development board supports two network interfaces: Ethernet and Wi-Fi. Users can achieve network connection via either interface.
+The RDK X5 development board supports two network interfaces: Ethernet and Wi-Fi. Users can achieve network connection through either interface.
 
 #### System burning
 
@@ -120,7 +120,7 @@ The RDK suite currently provides an Ubuntu 22.04 system image, which supports de
 
 Click [**to download the image**](https://archive.d-robotics.cc/downloads/os_images/rdk_x5/), then enter the version selection page. Select the corresponding version directory, and go to the 3.1.0 version system download page.
 
-After the download is completed, extract the Ubuntu system image file, such as `rdk-x5-ubuntu22-preinstalled-desktop-3.1.0-arm64.img`.
+After the download is complete, extract the Ubuntu system image file, such as `rdk-x5-ubuntu22-preinstalled-desktop-3.1.0-arm64.img`.
 
 > [!TIP]
 >
@@ -138,13 +138,13 @@ Before burning the Ubuntu system image, the following preparations are required:
 
 The process of creating an SD boot card is as follows:
 
-1. Open the [balenaEtcher](https://etcher.balena.io/) tool, click the `Flash from file` button, and select the `rdk-x5-ubuntu22-preinstalled-desktop-3.1.0-arm64.img` file extracted for use as the burning image.
+1. Open the [balenaEtcher](https://etcher.balena.io/) tool, click the `Flash from file` button, and select the `rdk-x5-ubuntu22-preinstalled-desktop-3.1.0-arm64.img` file extracted from the archive as the burning image.
 
 <p align="center">
   <img alt="image-flash-1" src="../../assets/rdk_x5/image-flash-1.png" width="50%"/>
 </p>
 
-2. Click the `Select target` button and select the corresponding Micro SD card as the target storage device.
+2. Click the `Select target` button and select the corresponding Micro SD memory card as the target storage device.
 
 <p align="center">
   <img alt="image-flash-2" src="../../assets/rdk_x5/image-flash-2.png" width="50%"/>
@@ -162,24 +162,24 @@ The process of creating an SD boot card is as follows:
   <img alt="image-flash-5" src="../../assets/rdk_x5/image-flash-5.png" width="45%" />
 </p>
 
-5. When the tooltip `烧录成功` appears, it indicates that the image burning is complete. You can turn off `balenaEtcher` and remove the memory card.
+5. When the tooltip `烧录成功` appears, it indicates that the image burning is complete. You can close `balenaEtcher` and remove the memory card.
 <p align="center">
   <img alt="image-flash-6" src="../../assets/rdk_x5/image-flash-6.png" width="50%"/>
 </p>
 
 ### Startup System
 
-First, keep the development board **off power**. Then insert the prepared memory card into the Micro SD slot of the development board, connect the development board to the monitor via the HDMI cable, and finally power on the development board.
+First, keep the development board **off power**. Then insert the prepared memory card into the Micro SD slot of the development board, connect the development board and the monitor via the HDMI cable, and finally power on the development board.
 
-When the system is started for the first time, the default environment configuration is performed. The entire process takes about 45 seconds. After the configuration is complete, the Ubuntu system desktop will be displayed on the monitor, as shown in the following figure:
+When the system starts for the first time, the default environment configuration is performed. The entire process takes about 45 seconds. After the configuration, the Ubuntu system desktop will be displayed on the monitor, as shown in the following figure:
 
 ![image-desktop_display](https://github.com/user-attachments/assets/71b86912-e6c1-4639-89fb-b539775d8a5c)
 
 > [!TIP]
 > Explanation of LED indicators on the development board
-> **<font color='Green'> green </font>** indicator light: On indicates that the hardware is powered on properly.
+> **<font color='Green'> green </font>** LED indicator: On, indicating that the hardware is powered on properly.
 >
-> If the output does not appear after the development board is powered on for a long time (more than 2 minutes), it means the board started abnormally. Debugging is required via the serial line to check if the board is functioning correctly.
+> If the output does not appear for a long time after the development board is powered on (more than 2 minutes), it means the board started abnormally. Debugging is required via the serial line to check if the board is functioning correctly.
 >
 > If no monitor is connected, check whether there is an orange light near the green power light. If it is on, it means the system is up and you can start using it!
 
@@ -187,15 +187,15 @@ When the system is started for the first time, the default environment configura
 
 Common issues when using the development board for the first time are as follows:
 
-- **<font color='Blue'> does not power on upon connection </font>**: Please ensure that the adapter recommended in [ is used to supply power ](#供电); also, make sure the Micro SD card of the development board has been burned with the Ubuntu system image.
+- **<font color='Blue'> does not power on upon connection </font>**: Please ensure that the adapter recommended in [ is used to supply power ](#供电); also, make sure the Micro SD card of the development board has been burned with a Ubuntu system image.
 - **<font color='Blue'> uses a hot-plug Micro SD card </font>**: The development board does not support hot-plugging of Micro SD cards. If an error occurs, please restart the development board.
 
 > [!WARNING]
 > Precautions
 >
-> - **Prohibited** to plug or unplug any device except USB, HDMI, and network cables when the device is powered on
+> - **Prohibit** plugging or unplugging any device except USB, HDMI, and network cables when the device is powered on
 > - The Type-C USB port of RDK X5 is used only for power supply
-> - Use a USB Type-C power cable from a reputable brand; otherwise, abnormal power supply may occur, leading to system power loss
+> - Use a certified brand's USB Type-C power cable; otherwise, abnormal power supply may occur, leading to system power loss
 
 
 ## YOLO Algorithm Testing
@@ -239,7 +239,7 @@ And output the rendering result to the `output_image.jpg` file, as shown in the 
 
 ## Camera Applications
 
-### Local storage of camera images
+### Local saving of camera images
 
 This example `vio_capture` implements `MIPI` camera image capture and the function of locally saving images in `RAW` and `YUV` formats. The flowchart of the example is as follows:
 
@@ -261,9 +261,9 @@ sunrise@ubuntu:/app/cdev_demo/vio_capture$ sudo make
 sunrise@ubuntu:/app/cdev_demo/vio_capture$ sudo ./capture -b 16 -c 10 -h 1080 -w 1920
 ```
 
-Parameter descriptions:
+Parameter description:
 
-- `-b`: Number of RAW images `bit`, `IMX219` / `IMX477` / `OV5647` are set to `16`, and only a very small number of Camera Sensors require being set to `8`
+- `-b`: Number of RAW images `bit`, `IMX219` / `IMX477` / `OV5647` are set to `16`, and only a very small number of Camera Sensors need to be set to `8`
 - `-c`: Number of saved images
 - `-w`: Width of the saved image
 - `-h`: Height of the saved image
@@ -334,7 +334,7 @@ Saved files:
 
 ## ROS Applications
 
-### Feature Introduction
+### Function Introduction
 
 In this example, the YOLOv8 object detection algorithm is used to subscribe to images published by the MIPI camera. After algorithmic inference, the algorithm msg is generated, and through the WebSocket package, the published images and corresponding algorithm results are rendered and displayed in a browser on the PC.
 
@@ -387,4 +387,4 @@ Enter `http://IP:8000/TogetheROS/` in the browser on the PC to view the image an
 
 ## Conclusion
 
-That's all for this tutorial. Feel free to continue exploring 😁
+That's all for this tutorial. Feel free to explore further 😁
