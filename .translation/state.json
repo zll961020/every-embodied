@@ -1521,13 +1521,13 @@
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/huggingface/act/README.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/huggingface/act/README.md",
-      "sourceHash": "f93a602e59581123549ba2c41070fffe95bca5991d18ef8ee0691861133fbf31",
+      "sourceHash": "9d105142ca4c8d61ea38dbb5b545f89a4a1cccc3144f158bc2645350f353af35",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/huggingface/pi0/README.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/huggingface/pi0/README.md",
-      "sourceHash": "878db4f9989afa0e02bd606d0c12f0e04c2bbda8d957ef0364fee46a16ab387e",
+      "sourceHash": "af4194c5621216114d96fefbf0ae26c9fbc848e0e58bfbad8733247aa102c1bc",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
@@ -1816,6 +1816,12 @@
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/code/README.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/code/README.md",
       "sourceHash": "c8c811b50994ca681af5e900c08a38ff26926a284711f884fae0d4c8174208a7",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/external/README.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/external/README.md",
+      "sourceHash": "c8e8d40f96e0e52bf02f74dd4d4b400f536c88117e74a9ad35439505ab113227",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     }
