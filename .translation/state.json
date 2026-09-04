@@ -1533,19 +1533,19 @@
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/huggingface/smolvla/README.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/huggingface/smolvla/README.md",
-      "sourceHash": "f02edbc1adb60a7fbfd4a82886910d01b424a7248d9817aebe0ed52c4aaa1fb8",
+      "sourceHash": "8f19803b6090bebaaaebf70444457e8b5536b4434c960de28c0f15934a5edb68",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/notebooks/README.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/notebooks/README.md",
-      "sourceHash": "70fbff4716a6dcf7add6a8e01e93879f75adad71d0629daa4ebd6e2cc6c3b4ee",
+      "sourceHash": "d194147751ed64bcecc1542d6c786251f27a4875d172bf9d1ce55164220e0cf3",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/notebooks/workflows/README.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/notebooks/workflows/README.md",
-      "sourceHash": "f173e125562306ba8fdcc661d5fea789269c1011da24b3ea95460990b517d7ab",
+      "sourceHash": "9ee0fefb6a7e98301921bcd9d7e188646f45cd2622684948649b6e9727421f82",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
