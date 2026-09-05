@@ -1551,7 +1551,7 @@
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_00_AMD_AUP免费云平台使用指南.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/00-amd-aup-free-cloud-platform-usage-guide.md",
-      "sourceHash": "378d466fa5cc47057f86d4342f599a4ac3aa0446865f6d928223b7f7b7235b17",
+      "sourceHash": "52fa64c5c4b3370cdc8abcbbd482e451496ce812ff574376b958457f092dc58e",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
@@ -1569,7 +1569,7 @@
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_03_ACT_ROCm迁移与DAgger诊断.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/03-act-rocm-migration-and-dagger-diagnosis.md",
-      "sourceHash": "0fafd43a9a129549aa46a259083e215815b3c1b28f65e539cf526ba1c7a372be",
+      "sourceHash": "01c702752e2e9fafb42423fd886a3e7ebb5781ed63ad6b4d5cd68a63bc181fc6",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
@@ -1581,7 +1581,7 @@
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_05_pi0_ROCm权限Smoke与训练门控.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/05-pi0-rocm-permission-smoke-and-training-gatekeeping.md",
-      "sourceHash": "9e4021172445c115159f07fe2e9fcc99f32b3c660a861e2c0a21f0a5195b71f1",
+      "sourceHash": "ed0e1f87f7c4862c4c01e70c406934da6bd86ac7a4a99ffee3177ccdf534f220",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
