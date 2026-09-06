@@ -1587,19 +1587,19 @@
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_06_ROCm调试复盘与排障案例.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/06-rocm-debugging-review-and-troubleshooting-cases.md",
-      "sourceHash": "ba3996b9343d292a34c381de76954bc6575d90ad2d67b4f074afeabfc1802690",
+      "sourceHash": "a30e98fa4ae2a2e0c65374a3e52d0d88314ac4038c8f019c2480014941ef3565",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_07_ROCm端到端采集训练部署.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/07-rocm-end-to-end-collection-training-and-deployment.md",
-      "sourceHash": "97b60cec12323aa46a29a51ba137d660249e9ccb8875ebe35741cca1d98f9ab8",
+      "sourceHash": "a962d3eb610a796f5562d9910fef1875e94f9648e883e0bd3d5ee63ce44bd677",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_08_预训练权重与零训练体验.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/08-pre-trained-weights-and-zero-training-experience.md",
-      "sourceHash": "041758203159fd8f5e1350058a5eecd69633d467e8200ce6b4eada11debeb425",
+      "sourceHash": "54df7f898570b1ad22923c9ca6f6c0b9a70a1bd6552eead40ddd3c620be01f39",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
