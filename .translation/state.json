@@ -1824,6 +1824,24 @@
       "sourceHash": "c8e8d40f96e0e52bf02f74dd4d4b400f536c88117e74a9ad35439505ab113227",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_09_AMD_Physical_AI仿真基准与长程视频复现.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/09-amd-physical-ai-simulation-benchmarks-and-long-term-video-reproduction.md",
+      "sourceHash": "9cd05a9add48dcbbd41974bad749de7947de7ea91bd7fbdc042439a16ee1d776",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_10_仿真基准下载与统一目录.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/10-simulation-benchmark-download-and-unified-directory.md",
+      "sourceHash": "7efb4e78bb48a6662ba7018a31d12f1cd44294c82d0b2e96128eadbf1d79701d",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_11_RoboCasa365_ROCm下载训练评估.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/11-robocasa365-rocm-download-training-and-evaluation.md",
+      "sourceHash": "dc2782482b493f6741da6c3748c7bd432848e68b5f3ad3791d4c7a6715004057",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     }
   }
 }
