@@ -1842,6 +1842,24 @@
       "sourceHash": "dc2782482b493f6741da6c3748c7bd432848e68b5f3ad3791d4c7a6715004057",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_12_DexJoCo_Pi05_ROCm_JAX迁移训练评估.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/12-dexjoco-pi05-rocm-jax-migration-training-and-evaluation.md",
+      "sourceHash": "3fcaf04c8f1051cde58e10e80dc2c0d210d98e04734dda9d61ef204497c4b561",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_13_DISCOVERSE_ROCm数据生成训练与多视角视频.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/13-discoverse-rocm-data-generation-training-and-multi-view-video.md",
+      "sourceHash": "41061f9092c88b76f4658a831249b5399f189cd19dc2eddfb21b9d1523cfb843",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_14_RoboWits_ROCm下载训练与创意任务评估.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/14-robowits-rocm-download-training-and-creative-task-evaluation.md",
+      "sourceHash": "52df5fd33f7784334ddb7120136443d3915f7117932d2fc522ce9bd9533cf95c",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     }
   }
 }
