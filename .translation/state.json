@@ -1605,7 +1605,7 @@
     },
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/README.md",
-      "sourceHash": "6dc7884c262cd9bba61b6d06a35fb55614360c6fb86b4635dff0dd85513a7df3",
+      "sourceHash": "c17218a7dc7b0f987289a5d85c4e6d9ac81adc4bc95f2517ad64ff7d4611119c",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     },
@@ -1858,6 +1858,18 @@
     "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_14_RoboWits_ROCm下载训练与创意任务评估.md": {
       "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/14-robowits-rocm-download-training-and-creative-task-evaluation.md",
       "sourceHash": "52df5fd33f7784334ddb7120136443d3915f7117932d2fc522ce9bd9533cf95c",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_15_Unitree_G1预测CBF_ROCm复现.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/15-unitree-g1-prediction-cbf-rocm-reproduction.md",
+      "sourceHash": "9d45edd9566177aaaa57f714b1f8376e4586dc1bb715421e897c3ffecbd78990",
+      "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
+      "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
+    },
+    "16-专题组队学习/04-AMD-ROCm策略复刻专题/README_16_统一评估视频与结果归档.md": {
+      "target": "en/16-study-programs/04-amd-rocm-policy-replication-topic/16-unify-the-evaluation-videos-and-result-archiving.md",
+      "sourceHash": "c102e95da23e3b5da33c3cf6d78f137bc5fc28cda9ed91eee504b69c21f32416",
       "model": "tencent/Hy-MT2-1.8B-GGUF:Q4_K_M",
       "modelRevision": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699"
     }
